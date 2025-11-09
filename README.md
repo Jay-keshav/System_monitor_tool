@@ -59,7 +59,8 @@ Include the following screenshots in this section (replace placeholders with act
 ```
 System-Monitor-Tool/
 ├─ system_monitor.cpp
-├─ Project_Report_System_Monitor.md
+├─ system_monitor_tool.pdf
+├─ monitor
 ├─ screenshots/
 │  ├─ compile.png
 │  ├─ running.png
