@@ -22,13 +22,13 @@ Below is the main source file used for the project.
 ## 3. Full screenshots
 Include the following screenshots in this section (replace placeholders with actual images):
 1. Compilation screenshot: `g++ system_monitor.cpp -o monitor -std=c++17 -O2`
-   - [Insert screenshot: compile.png]
+   - [screenshot: compile.png]
 2. Running screenshot showing system stats and process list
-   - [Insert screenshot: run1.png]
+   - [screenshot: running.png]
 3. Example of killing a process: issued `k <pid>` and confirmation
-   - [Insert screenshot: kill_example.png]
-
-> **How to take screenshots:** Run the program and use your terminal/screenshot tool (e.g., GNOME Screenshot or `import`) to capture the output. Save images into `/screenshots` folder and upload to GitHub.
+   - [screenshot: kill1.png, kill2.png, kill3.png]
+4. Example of quiting the program : issued 'q' command and enter
+   - [screenshot: quiting.png, quited.png]
 
 ---
 
@@ -59,29 +59,18 @@ Include the following screenshots in this section (replace placeholders with act
 ```
 System-Monitor-Tool/
 ├─ system_monitor.cpp
-├─ Readme.md
-├─ monitor
-├─ system_monitor_tool.pdf
+├─ Project_Report_System_Monitor.md
 ├─ screenshots/
 │  ├─ compile.png
-│  ├─ run1.png
-│  └─ kill_example.png
+│  ├─ running.png
+│  ├─ quiting.png
+│  ├─ quited.png
+│  ├─ kill1.png
+│  ├─ kill2.png
+│  └─ kill3.png
 ```
 
 ---
 
 ## Notes & Extension Ideas (highlight if extended)
 If you extended the project (e.g., added network monitoring, CSV logs, web UI), rename title to **Advanced System Monitor Tool** and highlight the new title in **yellow** in the final submitted PDF.
-
-Possible extensions:
-- Export metrics periodically to CSV/JSON.
-- Add terminal UI library (ncurses) for better interactivity.
-- Add filters/sort and search by process name.
-- Add TCP/UDP per-process socket info.
-
----
-
-## Submission
-- Push code and report to a **public GitHub repo**.
-- Upload the report and screenshots.
-- Provide the repo link in the Google Form for submission.
